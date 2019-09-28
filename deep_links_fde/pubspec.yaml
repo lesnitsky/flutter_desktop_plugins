@@ -1,8 +1,8 @@
 name: deep_links_fde
-description: Temporary desktop implmentations of connectivity from flutter/plugins
+description: Deep links for flutter desktop
 version: 0.0.1
 author: Andrei Lesnitsky <andrei.lesnitksy@gmail.com>
-homepage: https://github.com/lesnitsky/deep_links_fde
+homepage: https://github.com/lesnitsky/flutter_desktop_plugins/tree/master/deep_links_fde
 
 flutter:
   plugin:

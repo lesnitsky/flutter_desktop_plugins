@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 temp fake deep_links_fde plugin
                        DESC
-  s.homepage         = 'https://github.com/google/flutter-desktop-embedding/tree/master/plugins/deep_links_fde'
+  s.homepage         = 'https://github.com/lesnitsky/flutter_desktop_plugins/tree/master/deep_links_fde'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Flutter Desktop Embedding Developers' => 'flutter-desktop-embedding-dev@googlegroups.com' }
+  s.author           = { 'Andrei Lesnitsky' => 'andrei.lesnitsky@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
