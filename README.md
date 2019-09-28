@@ -1,3 +1,12 @@
 # Flutter desktop plugins
 
-* [connectivity](https://github.com/lesnitsky/fde_plugins/tree/master/connectivity_fde)
+- [connectivity](./connectivity_fde) (macOS)
+- [deep_links](./deep_links_fde) (macOS)
+
+## Author
+
+Andrei Lesnitsky
+
+## License
+
+MIT
