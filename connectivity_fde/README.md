@@ -1,4 +1,4 @@
-# Connectivity plugin for desktop
+# Flutter connectivity plugin for desktop
 
 [connectivity](https://github.com/flutter/plugins/tree/master/packages/connectivity) plugin for macos (no linux or windows support)
 
