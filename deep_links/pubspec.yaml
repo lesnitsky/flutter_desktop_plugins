@@ -1,8 +1,8 @@
-name: deep_links_fde
+name: deep_links
 description: Deep links for flutter desktop
 version: 0.0.1
 author: Andrei Lesnitsky <andrei.lesnitksy@gmail.com>
-homepage: https://github.com/lesnitsky/flutter_desktop_plugins/tree/master/deep_links_fde
+homepage: https://github.com/lesnitsky/flutter_desktop_plugins/tree/master/deep_links
 
 flutter:
   plugin:

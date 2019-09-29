@@ -9,11 +9,10 @@
 ```pubspec.yaml
 ...
 dependencies:
-  connectivity: ^0.4.3
-  deep_links_fde:
+  deep_links:
     git:
-      url: git://github.com/lesnitsky/fde_plugins.git
-      path: deep_links_fde
+      url: git://github.com/lesnitsky/flutter_desktop_plugins.git
+      path: deep_links
 ...
 ```
 
@@ -34,7 +33,7 @@ This step won't be necessary when [flutter#41471](https://github.com/flutter/flu
 ## Usage
 
 ```dart
-import 'package:deep_links_fde/deep_links.dart';
+import 'package:deep_links/deep_links.dart';
 
 final dl = new DeepLinks();
 
