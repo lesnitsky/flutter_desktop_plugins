@@ -10,7 +10,7 @@ dependencies:
   connectivity: ^0.4.3
   connectivity_fde:
     git:
-      url: git://github.com/lesnitsky/fde_plugins.git
+      url: git://github.com/lesnitsky/flutter_desktop_plugins.git
       path: connectivity_fde
 ...
 ```
