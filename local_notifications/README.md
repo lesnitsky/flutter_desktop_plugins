@@ -23,11 +23,21 @@ import 'package:local_notifications/local_notifications.dart';
 
 final notification = new Notification(
   id: 'unique-id',
-  title: 'Hello',
-  subtitle: 'How are you',
-  text: 'My first notification',
+  title: 'Notification sent from flutter',
+  subtitle: 'Hello',
+  text: 'How are you',
   imageUrl: 'https://placehold.it/300',
 );
 
+await LocalNotifications.setReplyInputPlaceholderText("What's up?");
+
 LocalNotifications.send(notification);
+
+LocalNotifications.responses.listen((d) {
+  print('Notification response: ${d.responseText}');
+})
+
+LocalNotifications.onClick.listen((d) {
+  print('Notification ${d} was clicked');
+})
 ```
