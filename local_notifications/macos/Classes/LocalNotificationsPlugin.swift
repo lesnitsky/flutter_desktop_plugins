@@ -33,6 +33,9 @@ public class LocalNotificationsPlugin: NSObject, FlutterPlugin, FlutterStreamHan
     var responseText: String?
 
     switch (notification.activationType) {
+    case .contentsClicked:
+      notificationCenter.removeDeliveredNotification(notification);
+      break;
     case .replied:
       guard let response = notification.response else { return }
       responseText = response.string
