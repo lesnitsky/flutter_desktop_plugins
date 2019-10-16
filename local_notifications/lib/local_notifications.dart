@@ -14,18 +14,18 @@ const _eventChannel = const EventChannel(
     'plugins.lesnitsky.com/local_notifications_event_channel');
 
 class LocalNotifications {
-  static Stream get _stream =>
+  static Stream _stream =
       _eventChannel.receiveBroadcastStream().map((d) => json.decode(d));
 
   /// [Stream] of responses received from displayed notification.
   /// Set [Notificaiton.requestReply] to true to show "Reply" button.
   static Stream<NotificationResponse> get responses =>
-      _stream.where((d) => d['responseText'] != null).map((d) =>
-          NotificationResponse(id: d['id'], responseText: d['responseText']));
+      _stream.where((d) => d['response'] != null).map((d) =>
+          NotificationResponse(id: d['id'], responseText: d['response']));
 
   /// [Stream] of notification ids which where clicked.
   static Stream<String> get onClick =>
-      _stream.where((d) => d['responseText'] == null).map((d) => d['id']);
+      _stream.where((d) => d['response'] == null).map((d) => d['id']);
 
   /// Sends notification
   static send(Notification notification) async {
