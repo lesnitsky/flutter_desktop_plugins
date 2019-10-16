@@ -46,7 +46,9 @@ public class LocalNotificationsPlugin: NSObject, FlutterPlugin, FlutterStreamHan
         "response": responseText
     ])
 
-    eventSink?(json)
+    guard let data = json else { return }
+
+    eventSink?(String(data: data, encoding: String.Encoding.utf8))
   }
 
   public func handle(_ call: FlutterMethodCall, result: FlutterResult) {
