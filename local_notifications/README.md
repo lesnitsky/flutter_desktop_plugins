@@ -2,6 +2,8 @@
 
 ⚠️ Flutter desktop plugins API is not yet finalized and may change, so this plugin may not be working at some point. File an issue if it doesn't.
 
+![Screenshot](https://screenshots-lesnitsky.s3.eu-west-2.amazonaws.com/flutter_local_notifications.jpg)
+
 ## Installation
 
 `pubspec.yaml`
