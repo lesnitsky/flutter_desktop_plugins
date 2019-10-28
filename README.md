@@ -6,6 +6,7 @@
 - [connectivity](./connectivity_fde) (macOS)
 - [deep_links](./deep_links) (macOS)
 - [local_notifications](./local_notifications) (macOS)
+- [application_badge](./application_badge) (macOS)
 
 ## Author
 
