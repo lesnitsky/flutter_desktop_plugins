@@ -1,0 +1,5 @@
+.packages
+.flutter-plugins
+pubspec.lock
+macos/Flutter
+.vscode
