@@ -5,7 +5,7 @@
 
 ⚠️ Flutter desktop plugins API is not yet finalized and may change, so this plugin may not be working at some point. File an issue if it doesn't.
 
-![Screenshot](https://screenshots-lesnitsky.s3.eu-west-2.amazonaws.com/flutter_application_badge.jpg)
+![Screenshot](https://screenshots-lesnitsky.s3.eu-west-2.amazonaws.com/flutter_application_badge.png)
 
 ## Installation
 
@@ -26,23 +26,15 @@ dependencies:
 ```dart
 import 'package:application_badge/application_badge.dart';
 
-final notification = new Notification(
-  id: 'unique-id',
-  title: 'Notification sent from flutter',
-  subtitle: 'Hello',
-  text: 'How are you',
-  imageUrl: 'https://placehold.it/300',
-);
+class MyApp extends StatelessWidget {
+  /// ...
 
-await ApplicationBadge.setReplyInputPlaceholderText("What's up?");
+  setBadge(String badge) async {
+    await ApplicationBadge.setBadge('42');
+  }
 
-ApplicationBadge.send(notification);
-
-ApplicationBadge.responses.listen((d) {
-  print('Notification response: ${d.responseText}');
-})
-
-ApplicationBadge.onClick.listen((d) {
-  print('Notification ${d} was clicked');
-})
+  clearBadge() async P{
+    await ApplicationBadge.clear();
+  }
+}
 ```
