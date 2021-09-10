@@ -6,7 +6,7 @@ class DeepLinks {
   Stream<String>? _onLinkReceived;
 
   static DeepLinks? _instance;
-  static DeepLinks get instnace => _instance ??= DeepLinks();
+  static DeepLinks get instance => _instance ??= DeepLinks();
 
   Stream<String> get onLinkReceived {
     if (_onLinkReceived != null) return _onLinkReceived!;
