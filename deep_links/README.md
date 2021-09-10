@@ -10,7 +10,7 @@
 ```pubspec.yaml
 ...
 dependencies:
-  deep_links_macos: ^0.1.0
+  deep_links: ^0.3.0
 ...
 ```
 
