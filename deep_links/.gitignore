@@ -1,5 +1,7 @@
+.DS_Store
+.dart_tool/
+
 .packages
-.flutter-plugins
-pubspec.lock
-macos/Flutter
-.vscode
+.pub/
+
+build/

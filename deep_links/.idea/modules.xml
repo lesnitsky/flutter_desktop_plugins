@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/deep_links.iml" filepath="$PROJECT_DIR$/deep_links.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/deep_links_android.iml" filepath="$PROJECT_DIR$/android/deep_links_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/deep_links_example_android.iml" filepath="$PROJECT_DIR$/example/android/deep_links_example_android.iml" />
+    </modules>
+  </component>
+</project>
